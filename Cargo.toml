@@ -2,3 +2,17 @@
 name = "accord-ledger"
 version = "0.1.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
+description = "Integer-safe royalty and commission settlement engine"
+repository = "https://github.com/rhamenator/AccordLedger"
+
+[package.metadata.wix]
+upgrade-guid = "54C2E98F-B0E5-4370-9F5C-623346721EE2"
+path-guid = "F67E11E0-3869-427D-B772-815203490F48"
+license = false
+eula = false
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
