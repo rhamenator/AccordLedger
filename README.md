@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="AccordLedger logo" width="220">
+</p>
+
 # AccordLedger
 
 A generic royalty and commission settlement core based on the reusable ideas in
