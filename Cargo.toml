@@ -12,6 +12,7 @@ path-guid = "F67E11E0-3869-427D-B772-815203490F48"
 license = false
 eula = false
 
+product-icon = "wix\\Product.ico"
 # The profile that 'dist' will build with
 [profile.dist]
 inherits = "release"
